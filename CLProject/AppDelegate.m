@@ -6,6 +6,8 @@
 //  Copyright (c) 2015 Vasiliy Zhuk. All rights reserved.
 //
 
+#import <Crashlytics/Crashlytics.h>
+
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
@@ -16,7 +18,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [Crashlytics startWithAPIKey:@"4590972537f34f0376ce9469baf7175861bcd3aa"];
     return YES;
 }
 
