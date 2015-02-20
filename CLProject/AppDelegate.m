@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Vasiliy Zhuk. All rights reserved.
 //
 
-#import <Crashlytics/Crashlytics.h>
+//#import <Crashlytics/Crashlytics.h>
 
 #import "AppDelegate.h"
 
@@ -18,7 +18,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [Crashlytics startWithAPIKey:@"4590972537f34f0376ce9469baf7175861bcd3aa"];
+    //[Crashlytics startWithAPIKey:@"4590972537f34f0376ce9469baf7175861bcd3aa"];
     return YES;
 }
 

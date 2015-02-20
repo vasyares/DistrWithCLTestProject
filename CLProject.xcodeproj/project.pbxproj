@@ -296,7 +296,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "${SRCROOT}/Libs/Crashlytics/Crashlytics.framework/run 4590972537f34f0376ce9469baf7175861bcd3aa 70768d7d661237b6e9005ce9c4854fe92219950c0131bc506aee6cdd99504339";
+			shellScript = "#${SRCROOT}/Libs/Crashlytics/Crashlytics.framework/run 4590972537f34f0376ce9469baf7175861bcd3aa 70768d7d661237b6e9005ce9c4854fe92219950c0131bc506aee6cdd99504339";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -558,6 +558,7 @@
 				E2EA457E1A93404700C8406E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2EA457F1A93404700C8406E /* Build configuration list for PBXNativeTarget "CLProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +567,7 @@
 				E2EA45811A93404700C8406E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2EA45941A94DA4100C8406E /* Build configuration list for PBXNativeTarget "CLProject2" */ = {
 			isa = XCConfigurationList;
